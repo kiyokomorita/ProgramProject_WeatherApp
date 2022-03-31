@@ -156,6 +156,6 @@ button:focus {
     /* margin-left: 5px; */
     max-width: 420px;
     opacity: 0.8;
-    height: 70vh;
+    /* height: 70vh; */
   }
 }
