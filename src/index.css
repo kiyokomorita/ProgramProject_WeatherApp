@@ -140,20 +140,22 @@ button:focus {
 
 @media (max-width: 477px) {
   body {
-    background-size: cover;
+    background-size: auto;
     width: 100%;
   }
   .App {
     width: 100%;
-    height: 70vh;
+    align-items: center;
+    width: 80%;
   }
   .search-area {
     background: rgb(246, 247, 248);
     color: rgb(65, 63, 63);
     padding: 2em;
     border-radius: 30px;
-    margin-left: 5px;
+    /* margin-left: 5px; */
     max-width: 420px;
     opacity: 0.8;
+    height: 70vh;
   }
 }
