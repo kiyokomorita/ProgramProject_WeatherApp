@@ -127,6 +127,15 @@ button:focus {
 }
 
 @media (max-width: 820px) {
+  body {
+    width: 100%;
+  }
+  .App {
+    width: 500px;
+  }
+  .search-area {
+    opacity: 0.8;
+  }
 }
 
 @media (max-width: 477px) {
